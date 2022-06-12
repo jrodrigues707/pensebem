@@ -39,7 +39,7 @@ function checkAnswer(currentLevel){
     setTimeout(function(){
       $("body").removeClass("game-over");
     }, 200);
-    $("#level-title").text("Game Over, Touch or Click Restart");
+    $("#level-title").text("Game Over, Touch or Press Key to Restart");
     startOver();
 
   }
