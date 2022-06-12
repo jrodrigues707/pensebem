@@ -5,7 +5,7 @@ var level = 0;
 var started = false;
 
 
-$(document).on("click touchstart", function(){
+$(document).on("keypress touchstart", function(){
   if (started == false){
     $("#level-title").text("Level " + level);
     nextSequence();
