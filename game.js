@@ -5,7 +5,7 @@ var level = 0;
 var started = false;
 
 
-$(document).on("keypress", function(){
+$(document).on("tap", function(){
   if (started == false){
     $("#level-title").text("Level " + level);
     nextSequence();
