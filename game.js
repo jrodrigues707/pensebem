@@ -5,7 +5,7 @@ var level = 0;
 var started = false;
 
 
-$(document).on("tap", function(){
+$(document).on("click touchstart", function(){
   if (started == false){
     $("#level-title").text("Level " + level);
     nextSequence();
